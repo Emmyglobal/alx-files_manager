@@ -4,6 +4,7 @@ import { promisify } from 'util';
 /**
  * Represents a Redis client.
  */
+
 class RedisClient {
   /**
    * Creates a new RedisClient instance.
@@ -40,7 +41,7 @@ class RedisClient {
 
   /**
    * Stores a key and its value along with an expiration time.
-   * @param {String} key The key of the item to store.
+   * @param {String}  the key of the item to store.
    * @param {String | Number | Boolean} value The item to store.
    * @param {Number} duration The expiration time of the item in seconds.
    * @returns {Promise<void>}
